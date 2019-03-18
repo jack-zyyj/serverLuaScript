@@ -1,7 +1,7 @@
 # 说明
 
-该接口用于获取char的数量，char数量=玩家最大数+宠物最大数+NPC最大数
-
+该接口用于设置一个CHAR索引的标识
+参数为index(int),类型(字符串),值(int)
 ```
-char.getCharNum()
+char.setFlg(index,"特效",1)
 ```
