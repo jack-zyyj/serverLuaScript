@@ -1,7 +1,12 @@
 # 说明
 
-该接口用于获取char的数量，char数量=玩家最大数+宠物最大数+NPC最大数
+该接口用于判断一个索引是否有效，有效返回1，无效返回其他
+参数为索引，int值
 
 ```
-char.getCharNum()
+if char.check(index) == 1 then --index为索引
+	print("有效")
+else
+	print("无效")
+end
 ```
