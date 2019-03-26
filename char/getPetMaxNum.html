@@ -1,0 +1,1163 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>getPetMaxNum · 石器时代服务器脚本接口</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="大紫">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-indexed-cite/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-footer-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="getOthersMaxNum.html" />
+    
+    
+    <link rel="prev" href="getPlayerMaxNum.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    char接口
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="getCharNum.html">
+            
+                <a href="getCharNum.html">
+            
+                    
+                    getCharNum
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="getPlayerMaxNum.html">
+            
+                <a href="getPlayerMaxNum.html">
+            
+                    
+                    getPlayerMaxNum
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3" data-path="getPetMaxNum.html">
+            
+                <a href="getPetMaxNum.html">
+            
+                    
+                    getPetMaxNum
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="getOthersMaxNum.html">
+            
+                <a href="getOthersMaxNum.html">
+            
+                    
+                    getOthersMaxNum
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="check.html">
+            
+                <a href="check.html">
+            
+                    
+                    check
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="setWorkChar.html">
+            
+                <a href="setWorkChar.html">
+            
+                    
+                    setWorkChar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="getWorkChar.html">
+            
+                <a href="getWorkChar.html">
+            
+                    
+                    getWorkChar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="setWorkInt.html">
+            
+                <a href="setWorkInt.html">
+            
+                    
+                    setWorkInt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="getWorkInt.html">
+            
+                <a href="getWorkInt.html">
+            
+                    
+                    getWorkInt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="setChar.html">
+            
+                <a href="setChar.html">
+            
+                    
+                    setChar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="getChar.html">
+            
+                <a href="getChar.html">
+            
+                    
+                    getChar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="setInt.html">
+            
+                <a href="setInt.html">
+            
+                    
+                    setInt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="getInt.html">
+            
+                <a href="getInt.html">
+            
+                    
+                    getInt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="setFlg.html">
+            
+                <a href="setFlg.html">
+            
+                    
+                    setFlg
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="getFlg.html">
+            
+                <a href="getFlg.html">
+            
+                    
+                    getFlg
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.16" data-path="setFunctionPointer.html">
+            
+                <a href="setFunctionPointer.html">
+            
+                    
+                    setFunctionPointer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.17" data-path="delFunctionPointer.html">
+            
+                <a href="delFunctionPointer.html">
+            
+                    
+                    delFunctionPointer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.18" data-path="TalkToCli.html">
+            
+                <a href="TalkToCli.html">
+            
+                    
+                    TalkToCli
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.19" data-path="TalkToRound.html">
+            
+                <a href="TalkToRound.html">
+            
+                    
+                    TalkToRound
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.20" data-path="talkToFloor.html">
+            
+                <a href="talkToFloor.html">
+            
+                    
+                    talkToFloor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.21" data-path="talkToParty.html">
+            
+                <a href="talkToParty.html">
+            
+                    
+                    talkToParty
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.22" data-path="talkToServer.html">
+            
+                <a href="talkToServer.html">
+            
+                    
+                    talkToServer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.23" data-path="talkToWorld.html">
+            
+                <a href="talkToWorld.html">
+            
+                    
+                    talkToWorld
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.24" data-path="ToAroundChar.html">
+            
+                <a href="ToAroundChar.html">
+            
+                    
+                    ToAroundChar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.25" data-path="AroundChar.html">
+            
+                <a href="AroundChar.html">
+            
+                    
+                    AroundChar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.26" data-path="WarpToSpecificPoint.html">
+            
+                <a href="WarpToSpecificPoint.html">
+            
+                    
+                    WarpToSpecificPoint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.27" data-path="setCharPet.html">
+            
+                <a href="setCharPet.html">
+            
+                    
+                    setCharPet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.28" data-path="getCharPet.html">
+            
+                <a href="getCharPet.html">
+            
+                    
+                    getCharPet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.29" data-path="DelItem.html">
+            
+                <a href="DelItem.html">
+            
+                    
+                    DelItem
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.30" data-path="DelPileItemMess.html">
+            
+                <a href="DelPileItemMess.html">
+            
+                    
+                    DelPileItemMess
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.31" data-path="getFd.html">
+            
+                <a href="getFd.html">
+            
+                    
+                    getFd
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.32" data-path="Updata.html">
+            
+                <a href="Updata.html">
+            
+                    
+                    Updata
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.33" data-path="Additem.html">
+            
+                <a href="Additem.html">
+            
+                    
+                    Additem
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.34" data-path="AddPet.html">
+            
+                <a href="AddPet.html">
+            
+                    
+                    AddPet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.35" data-path="AddPetTempNo.html">
+            
+                <a href="AddPetTempNo.html">
+            
+                    
+                    AddPetTempNo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.36" data-path="setPetSkill.html">
+            
+                <a href="setPetSkill.html">
+            
+                    
+                    setPetSkill
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.37" data-path="getPetSkill.html">
+            
+                <a href="getPetSkill.html">
+            
+                    
+                    getPetSkill
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.38" data-path="PetLevelUp.html">
+            
+                <a href="PetLevelUp.html">
+            
+                    
+                    PetLevelUp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.39" data-path="JoinParty.html">
+            
+                <a href="JoinParty.html">
+            
+                    
+                    JoinParty
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.40" data-path="getLiftTo8.html">
+            
+                <a href="getLiftTo8.html">
+            
+                    
+                    getLiftTo8
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.41" data-path="getRightTo8.html">
+            
+                <a href="getRightTo8.html">
+            
+                    
+                    getRightTo8
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.42" data-path="complianceParameter.html">
+            
+                <a href="complianceParameter.html">
+            
+                    
+                    complianceParameter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.43" data-path="sendStatusString.html">
+            
+                <a href="sendStatusString.html">
+            
+                    
+                    sendStatusString
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.44" data-path="sendBattleEffect.html">
+            
+                <a href="sendBattleEffect.html">
+            
+                    
+                    sendBattleEffect
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.45" data-path="AllWarpToSpecificPoint.html">
+            
+                <a href="AllWarpToSpecificPoint.html">
+            
+                    
+                    AllWarpToSpecificPoint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.46" data-path="DelPet.html">
+            
+                <a href="DelPet.html">
+            
+                    
+                    DelPet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.47" data-path="getItemIndex.html">
+            
+                <a href="getItemIndex.html">
+            
+                    
+                    getItemIndex
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.48" data-path="setItemIndex.html">
+            
+                <a href="setItemIndex.html">
+            
+                    
+                    setItemIndex
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.49" data-path="charSaveFromConnect.html">
+            
+                <a href="charSaveFromConnect.html">
+            
+                    
+                    charSaveFromConnect
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.50" data-path="DischargeParty.html">
+            
+                <a href="DischargeParty.html">
+            
+                    
+                    DischargeParty
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.51" data-path="Skillupsend.html">
+            
+                <a href="Skillupsend.html">
+            
+                    
+                    Skillupsend
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.52" data-path="logou.html">
+            
+                <a href="logou.html">
+            
+                    
+                    logou
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.53" data-path="talkToAllServer.html">
+            
+                <a href="talkToAllServer.html">
+            
+                    
+                    talkToAllServer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.54" data-path="earnFame.html">
+            
+                <a href="earnFame.html">
+            
+                    
+                    earnFame
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.55" data-path="Encounter.html">
+            
+                <a href="Encounter.html">
+            
+                    
+                    Encounter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.56" data-path="StopEncounter.html">
+            
+                <a href="StopEncounter.html">
+            
+                    
+                    StopEncounter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.57" data-path="getCharStayEncount.html">
+            
+                <a href="getCharStayEncount.html">
+            
+                    
+                    getCharStayEncount
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.58" data-path="sendAction.html">
+            
+                <a href="sendAction.html">
+            
+                    
+                    sendAction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.59" data-path="newMessageToCli.html">
+            
+                <a href="newMessageToCli.html">
+            
+                    
+                    newMessageToCli
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.60" data-path="moveEquipItem.html">
+            
+                <a href="moveEquipItem.html">
+            
+                    
+                    moveEquipItem
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.61" data-path="getMaxHaveGold.html">
+            
+                <a href="getMaxHaveGold.html">
+            
+                    
+                    getMaxHaveGold
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.62" data-path="getPet4v.html">
+            
+                <a href="getPet4v.html">
+            
+                    
+                    getPet4v
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.63" data-path="WarpElderPosition.html">
+            
+                <a href="WarpElderPosition.html">
+            
+                    
+                    WarpElderPosition
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.64" data-path="getAddressbookName.html">
+            
+                <a href="getAddressbookName.html">
+            
+                    
+                    getAddressbookName
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.65" data-path="getAddressbookCdkey.html">
+            
+                <a href="getAddressbookCdkey.html">
+            
+                    
+                    getAddressbookCdkey
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.66" data-path="getLevelExp.html">
+            
+                <a href="getLevelExp.html">
+            
+                    
+                    getLevelExp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.67" data-path="getCharBaseValue.html">
+            
+                <a href="getCharBaseValue.html">
+            
+                    
+                    getCharBaseValue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.68" data-path="ElderSetPosition.html">
+            
+                <a href="ElderSetPosition.html">
+            
+                    
+                    ElderSetPosition
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >getPetMaxNum</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x8BF4;&#x660E;"><b></b>&#x8BF4;&#x660E;</a></li></ul></div><a href="#&#x8BF4;&#x660E;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x8BF4;&#x660E;"><a name="&#x8BF4;&#x660E;" class="anchor-navigation-ex-anchor" href="#&#x8BF4;&#x660E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8BF4;&#x660E;</h1>
+<p>&#x8BE5;&#x63A5;&#x53E3;&#x7528;&#x4E8E;&#x83B7;&#x53D6;&#x5BA0;&#x7269;&#x6700;&#x5927;&#x6570;</p>
+<pre class="language-"><code>char.getPetMaxNum()
+</code></pre><footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> By <a href="https://github.com/jack-zyyj/serverLuaScript" target="_blank">&#x5927;&#x7D2B;</a> </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> &#x6B64;&#x9875;&#x9762;&#x4FEE;&#x8BA2;&#x4E8E;&#xFF1A; 2019-03-26 10:41:45 </span> </footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="getPlayerMaxNum.html" class="navigation navigation-prev " aria-label="Previous page: getPlayerMaxNum">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="getOthersMaxNum.html" class="navigation navigation-next " aria-label="Next page: getOthersMaxNum">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"getPetMaxNum","level":"1.2.3","depth":2,"next":{"title":"getOthersMaxNum","level":"1.2.4","depth":2,"path":"char/getOthersMaxNum.md","ref":"char/getOthersMaxNum.md","articles":[]},"previous":{"title":"getPlayerMaxNum","level":"1.2.2","depth":2,"path":"char/getPlayerMaxNum.md","ref":"char/getPlayerMaxNum.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","github","-highlight","prism","bibtex-indexed-cite","anchor-navigation-ex","page-footer-ex","splitter","todo","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-solarizedlight.css"]},"github":{"url":"https://github.com/jack-zyyj/serverLuaScript"},"todo":{},"page-footer-ex":{"copyright":"By [大紫](https://github.com/jack-zyyj/serverLuaScript)","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"此页面修订于："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"expandable-chapters-small":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"大紫","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"石器时代服务器脚本接口","bib":[],"gitbook":"*"},"file":{"path":"char/getPetMaxNum.md","mtime":"2019-03-26T10:41:45.959Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-03-26T10:42:43.063Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
